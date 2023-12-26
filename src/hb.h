@@ -1,7 +1,7 @@
-#include <X11/Xft/Xft.h>
+#include "defs.h"
 #include <hb.h>
 #include <hb-ft.h>
 
-void hbunloadfonts();
+void hbunloadfonts(void);
 void hbtransform(XftGlyphFontSpec *, const Glyph *, size_t, int, int);
 

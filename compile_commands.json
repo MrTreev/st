@@ -1,0 +1,22 @@
+[
+  {
+    "directory": ".",
+    "command": "cc -I/usr/X11R6/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -DVERSION=\\\"0.8.5\\\"  -D_XOPEN_SOURCE=600 -std=c99 -pedantic -Wall -Wno-deprecated-declarations -O1 -o bld/st.o -c src/st.c",
+    "file": "src/st.c"
+  },
+  {
+    "directory": ".",
+    "command": "cc -I/usr/X11R6/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -DVERSION=\\\"0.8.5\\\"  -D_XOPEN_SOURCE=600 -std=c99 -pedantic -Wall -Wno-deprecated-declarations -O1 -o bld/boxdraw.o -c src/boxdraw.c",
+    "file": "src/boxdraw.c"
+  },
+  {
+    "directory": ".",
+    "command": "cc -I/usr/X11R6/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -DVERSION=\\\"0.8.5\\\"  -D_XOPEN_SOURCE=600 -std=c99 -pedantic -Wall -Wno-deprecated-declarations -O1 -o bld/x.o -c src/x.c",
+    "file": "src/x.c"
+  },
+  {
+    "directory": ".",
+    "command": "cc -I/usr/X11R6/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -DVERSION=\\\"0.8.5\\\"  -D_XOPEN_SOURCE=600 -std=c99 -pedantic -Wall -Wno-deprecated-declarations -O1 -o bld/hb.o -c src/hb.c",
+    "file": "src/hb.c"
+  }
+]

@@ -1,5 +1,4 @@
-patches/
+/old/
+/sys/
+/bld/
 .gitignore
-*.o
-st
-*.orig

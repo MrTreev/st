@@ -11,6 +11,7 @@ PREFIX     = /usr/local
 MANDIR     = share/man
 WATCH      = $(SRC)/config.h
 DEPS       = $(SRC)/boxdraw.c $(SRC)/x.c $(SRC)/hb.c 
+SYSTEM     = $(shell hostname)
 
 PKG_CONFIG = pkg-config
 
@@ -43,3 +44,14 @@ LDFLAGS  += $(LIBS)
 
 # compiler and linker
 CC = cc
+
+ifeq ("${SYSTEM}", "ThiccStation")
+	CFLAGS += -DFONT_DEF1='"Hack Nerd Font Mono:pixelsize=16:antialias=true:autohint=true"'
+	CFLAGS += -DFONT_DEF2='"Hack Nerd Font Mono:pixelsize=16:antialias=true:autohint=true"'
+else ifeq ("${SYSTEM}", "thiccpad")
+	CFLAGS += -DFONT_DEF1='"Hack Nerd Font Mono:pixelsize=14:antialias=true:autohint=true"'
+	CFLAGS += -DFONT_DEF2='"Hack Nerd Font Mono:pixelsize=14:antialias=true:autohint=true"'
+else
+	CFLAGS += -DFONT_DEF1='"Hack Nerd Font Mono:pixelsize=12:antialias=true:autohint=true"'
+	CFLAGS += -DFONT_DEF2='"Hack Nerd Font Mono:pixelsize=12:antialias=true:autohint=true"'
+endif
